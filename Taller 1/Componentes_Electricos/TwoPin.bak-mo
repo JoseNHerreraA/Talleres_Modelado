@@ -1,0 +1,11 @@
+within Componentes_Electricos;
+
+model TwoPin
+  PinNeg pinNeg1 annotation(
+    Placement(visible = true, transformation(origin = {-80, -2}, extent = {{-10, -10}, {10, 10}}, rotation = 0), iconTransformation(origin = {-80, -2}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+  PinPos pinPos1 annotation(
+    Placement(visible = true, transformation(origin = {80, -2}, extent = {{-10, -10}, {10, 10}}, rotation = 0), iconTransformation(origin = {80, -2}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
+equation
+
+annotation(
+    Icon);end TwoPin;
